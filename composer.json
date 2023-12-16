@@ -1,0 +1,28 @@
+{
+  "name": "oceanwebturk/database",
+  "description": "OceanWebTurk Database Package",
+  "type": "library",
+  "keywords":["oceanwebturk","database","framework"],
+  "license": "MIT",
+  "homepage":"https://github.com/oceanwebturk/database",
+  "support":{
+    "source": "https://github.com/oceanwebturk/database",
+    "wiki": "https://github.com/oceanwebturk/database/wiki"
+  },
+  "config":{
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "classmap-authoritative": true
+  },
+  "require":{
+    "php": ">=7.4"
+  },
+  "autoload": {
+   "psr-4":{
+     "OceanWT\\Database\\":""
+   }
+  },
+  "minimum-stability":"dev",
+  "prefer-stable":true
+}
