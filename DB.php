@@ -6,7 +6,7 @@ use OceanWT\Config;
 class DB 
 {
  
- use \OceanWT\Traits\Macro;
+ use \OceanWT\Support\Traits\Macro;
 
  /**
   * @var object
