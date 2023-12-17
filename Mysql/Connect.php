@@ -6,7 +6,7 @@ use PDO;
 
 class Connect extends PDO
 {
- use \OceanWT\Traits\Macro;
+ use \OceanWT\Support\Traits\Macro;
  /**
   * @var \PDO
   */
